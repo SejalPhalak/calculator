@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <style>
+        .calculator{
+            background-color: rgb(129, 126, 126);
+            height: 400px;
+            width: 300px;
+            margin: 80px auto;
+            border-radius: 20px;
+            padding: 20px
+        }
+        .screen{
+          
+            height: 40px;
+            width: 280px;
+            display: block;
+            text-align: right;
+            background: #bad38e;
+            font-size: 40px;
+            border-radius: 2px;
+            margin: 20px auto;
+            padding: 2%;
+         
+        }
+        .button-contanor{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            height: 300px;
+            width :280px;
+            align-items: center;
+        }
+        .asd{
+            font-size: 20px;
+            width: 55px;
+            height: 40px;
+            margin: 10PX;
+            background-color: #a7c5e5;
+            cursor: pointer;
+        }
+        .asd:hover{
+            background-color: #39ef48;
+            box-shadow: 0 0 10px 2px #f2f0f0;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="calculator">
+        <div>
+            <input type="text" value="0" class="screen"/>
+        </div>
+        <div class="button-contanor">
+            <button class="asd">%</button>
+            <button class="asd">7</button>
+            <button class="asd">4</button>
+            <button class="asd">1</button>
+            <button class="asd">AC</button>
+
+            <button class="asd">CE</button>
+            <button class="asd">8</button>
+            <button class="asd">5</button>
+            <button class="asd">2</button>
+            <button class="asd">0</button>
+
+            <button class="asd">C</button>
+            <button class="asd">9</button>
+            <button class="asd">6</button>
+            <button class="asd">3</button>
+            <button class="asd">.</button>
+
+            <button class="asd">/</button>
+            <button class="asd">*</button>
+            <button class="asd">-</button>
+            <button class="asd">+</button>
+            <button class="asd">=</button>
+
+
+        </div>
+
+    </div>
+</body>
+</html>
