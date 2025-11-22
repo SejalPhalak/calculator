@@ -6,7 +6,7 @@
     <title>calculator</title>
     <style>
         .calculator{
-            background-color: rgb(129, 126, 126);
+            background-color: black;
             height: 400px;
             width: 300px;
             margin: 80px auto;
@@ -27,27 +27,41 @@
          
         }
         .button-contanor{
+            
             display: flex;
             flex-direction: column;
             justify-content: space-between;
             flex-wrap: wrap;
             height: 300px;
-            width :280px;
+            width :290px;
             align-items: center;
         }
         .asd{
-            font-size: 20px;
+            font-size: 18px;
             width: 55px;
             height: 40px;
-            margin: 10PX;
+            margin: 7PX;
             background-color: #a7c5e5;
             cursor: pointer;
+        }
+        .specal-button{
+          width: 55px;
+            height: 41px;
         }
         .asd:hover{
             background-color: #39ef48;
             box-shadow: 0 0 10px 2px #f2f0f0;
         }
-        
+        .asd-equals{
+            background-color: #ff6348;
+            height: 98px;
+            width: 56px;
+            padding: 25px 10px;
+            color: white;
+        }
+        .eq{
+            margin:9px 0px;
+        }
     </style>
 </head>
 <body>
@@ -56,30 +70,30 @@
             <input type="text" value="0" class="screen"/>
         </div>
         <div class="button-contanor">
-            <button class="asd">%</button>
+            <button class="asd">AC</button>
             <button class="asd">7</button>
             <button class="asd">4</button>
             <button class="asd">1</button>
-            <button class="asd">AC</button>
+            <button class="asd">0</button>
 
-            <button class="asd">CE</button>
+            <button class="asd">M+</button>
             <button class="asd">8</button>
             <button class="asd">5</button>
             <button class="asd">2</button>
-            <button class="asd">0</button>
-
-            <button class="asd">C</button>
-            <button class="asd">9</button>
-            <button class="asd">6</button>
-            <button class="asd">3</button>
             <button class="asd">.</button>
 
             <button class="asd">/</button>
-            <button class="asd">*</button>
-            <button class="asd">-</button>
-            <button class="asd">+</button>
-            <button class="asd">=</button>
+            <button class="asd">9</button>
+            <button class="asd">6</button>
+            <button class="asd">3</button>
+            <button class="asd">%</button>
 
+            <button class="specal-button asd">X</button>
+            <button class="specal-button asd">-</button>
+            <button class="specal-button asd">+</button>
+          <div class="eq">
+            <button class="asd-equals">=</button>
+        </div>
 
         </div>
 
